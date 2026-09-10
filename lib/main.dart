@@ -103,7 +103,13 @@ class _MyHomePageState extends State<MyHomePage> {
           // action in the IDE, or press "p" in the console), to see the
           // wireframe for each widget.
           mainAxisAlignment: .center,
+
           children: [
+          Icon(
+            Icons.pest_control_rodent,
+            size: 100.0,
+            color: Colors.blue,
+          ),
             const Text('Evan has pushed the button this many times:',
               style: TextStyle(
                 fontSize: 24.0,
